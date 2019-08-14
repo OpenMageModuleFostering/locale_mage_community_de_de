@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Locale_Mage_community_de_DE",
+    "type": "magento-module",
+    "license": "AFL",
+    "homepage": "",
+    "description": "Deutsches Sprachpaket",
+    "authors": [
+    {
+        "name": "Rico Neitzel",
+        "email": "rico.neitzel@n-punkt.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
