@@ -1,13 +1,13 @@
 {
     "name": "OpenMageModuleFostering/Locale_Mage_community_de_DE",
     "type": "magento-module",
-    "license": "AFL",
+    "license": "OSL",
     "homepage": "",
-    "description": "Deutsches Sprachpaket",
+    "description": "Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten.",
     "authors": [
     {
         "name": "Rico Neitzel",
-        "email": "rico.neitzel@n-punkt.de"
+        "email": "rico@buro71a.de"
     }
 ],
     "suggest": {
