@@ -1,7 +1,7 @@
 {* This is a comment block
 
 Use vars: {{var var_name}}
-*}<!--@subject Zahlungs-Transaktion fehlgeschlagen Erinnerung @-->
+*}<!--@subject Zahlung fehlgeschlagen @-->
 <!--@vars
 {"var reason":"Transaction Failed Reason",
 "var checkoutType":"Checkout Type",
@@ -19,7 +19,7 @@ Use vars: {{var var_name}}
 <table>
     <thead>
         <tr>
-            <th>Zahlungs-Transaktion fehlgeschlagen.</th>
+            <th>Zahlung fehlgeschlagen.</th>
         </tr>
     </thead>
     <tbody>
@@ -30,11 +30,11 @@ Use vars: {{var var_name}}
                     {{var reason}}
                 </p>
                 <p>
-                    <b>Checkout Art</b><br />
+                    <b>Bezahlvorgang</b><br />
                     {{var checkoutType}}
                 </p>
                 <p>
-                    <b>Kunde:</b><br />
+                    <b>Kunde</b><br />
                     <a href="mailto:{{var customerEmail}}">{{var customer}}</a> &lt;{{var customerEmail}}&gt;
                 </p>
                 <p>
@@ -42,11 +42,11 @@ Use vars: {{var var_name}}
                     {{var items}}
                 </p>
                 <p>
-                    <b>Gesamtsumme:</b><br />
+                    <b>Gesamtsumme</b><br />
                     {{var total}}
                 </p>
                 <p>
-                    <b>Rechnungsadresse:</b><br />
+                    <b>Rechnungsadresse</b><br />
                     {{var billingAddress.format('html')}}
                 </p>
                 <p>
@@ -54,15 +54,15 @@ Use vars: {{var var_name}}
                     {{var shippingAddress.format('html')}}
                 </p>
                 <p>
-                    <b>Versandart:</b><br />
+                    <b>Versandart</b><br />
                     {{var shippingMethod}}
                 </p>
                 <p>
-                    <b>Zahlungsart:</b><br />
+                    <b>Zahlart</b><br />
                     {{var paymentMethod}}
                 </p>
                 <p>
-                    <b>Datum & Zeit</b><br />
+                    <b>Datum &amp; Zeit</b><br />
                     {{var dateAndTime}}
                 </p>
             </td>
