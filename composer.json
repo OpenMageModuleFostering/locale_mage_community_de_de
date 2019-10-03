@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Locale_Mage_community_de_DE",
+    "name": "OpenMageModuleFostering\/Locale_Mage_community_de_DE",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten.",
     "authors": [
-    {
-        "name": "Rico Neitzel",
-        "email": "rico@buro71a.de"
-    }
-],
+        {
+            "name": "Rico Neitzel",
+            "email": "rico@buro71a.de"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
