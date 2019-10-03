@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Locale_Mage_community_de_DE",
+    "name": "openmage-module-fostering\/locale_mage_community_de_de",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Deutsches Sprachpaket - bitte Infos auf der Extension Homepage beachten.",
     "authors": [
